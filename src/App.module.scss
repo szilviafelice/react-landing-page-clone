@@ -1,6 +1,31 @@
 header {
-  background-color: tomato;
+  background-color: rgb(218, 57, 63);
+  margin: 0 auto;
+  display: horizontal;
 }
-main {
-  background-color: pink;
+
+.siteNav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.heroSection {
+  background: #ecf1ff;
+  color: #29292c;
+  font-family: 'calibre-semibold', sans-serif;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  text-align: center;
+  transition: font-size 150ms;
+}
+
+.div {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
